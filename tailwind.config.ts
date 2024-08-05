@@ -1,6 +1,7 @@
 import type { Config } from "tailwindcss";
 const defaultTheme = require("tailwindcss/defaultTheme");
 const colors = require("tailwindcss/colors");
+
 const {
   default: flattenColorPalette,
 } = require("tailwindcss/lib/util/flattenColorPalette");
@@ -30,8 +31,20 @@ const config: Config = {
       },
       animation: {
         spotlight: "spotlight 2s ease .75s 1 forwards",
+        scroll:
+        "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+        aurora: "aurora 60s linear infinite",
       },
       keyframes: {
+        aurora: {
+          from: {
+            backgroundPosition: "50% 50%, 50% 50%",
+          },
+          to: {
+            backgroundPosition: "350% 50%, 350% 50%",
+          },
+        },
+
         spotlight: {
           "0%": {
             opacity: '0',
@@ -42,9 +55,14 @@ const config: Config = {
             transform: "translate(-50%,-40%) scale(1)",
           },
         },
+        scroll: {
+          to: {
+            transform: "translate(calc(-50% - 0.5rem))",
+          },
+        },
       },
     },
   },
-  plugins: [addVariablesForColors,],
+  plugins: [addVariablesForColors  ],
 };
 export default config;

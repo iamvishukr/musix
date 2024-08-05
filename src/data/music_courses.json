@@ -4,17 +4,17 @@
         "id": 1,
         "title": "Guitar Fundamentals",
         "slug": "guitar-fundamentals",
-        "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+        "description": "Learn the basics of playing guitar with our comprehensive beginner's course.It is totally a zero to hero course and will make sure you master it.",
         "price": 99.99,
         "instructor": "John Doe",
         "isFeatured": true,
-        "image": "/courses/guitar.jpg" 
+        "image": "/courses/guitar.webp" 
       },
       {
         "id": 2,
         "title": "Piano for Beginners",
         "slug": "piano-for-beginners",
-        "description": "Start your musical journey with foundational piano skills taught by expert instructors.",
+        "description": "Start your musical journey with foundational piano skills taught by expert instructors. A zero to hero course again.",
         "price": 109.99,
         "instructor": "Jane Smith",
         "isFeatured": false,
@@ -24,11 +24,11 @@
         "id": 3,
         "title": "Advanced Vocal Techniques",
         "slug": "advanced-vocal-techniques",
-        "description": "Enhance your singing with advanced vocal techniques for intermediate to advanced learners.",
+        "description": "Enhance your singing with advanced vocal techniques for intermediate to advanced learners.Learn from us and #BeTheBest",
         "price": 119.99,
         "instructor": "Emily Johnson",
         "isFeatured": true,
-        "image": "/courses/vocalist.jpg" 
+        "image": "/courses/vocal.jpg" 
       },
       {
         "id": 4,
@@ -38,7 +38,7 @@
         "price": 129.99,
         "instructor": "Mike Brown",
         "isFeatured": false,
-        "image": "/courses/drumming.jpg"
+        "image": "/courses/drum.jpg"
       },
       {
         "id": 5,
@@ -54,11 +54,11 @@
         "id": 6,
         "title": "Music Production Fundamentals",
         "slug": "music-production-fundamentals",
-        "description": "Dive into music production with this introductory course on the basics of sound engineering and mixing.",
+        "description": "Dive into music production with this introductory course on the basics of sound engineering and mixing. Learn from us and #BeTheBest",
         "price": 149.99,
         "instructor": "Alex Wilson",
         "isFeatured": true,
-        "image": "/courses/music-prod.jpg"
+        "image": "/courses/production.jpeg"
       },
       {
         "id": 7,
@@ -74,11 +74,11 @@
         "id": 8,
         "title": "Electronic Music Production",
         "slug": "electronic-music-production",
-        "description": "Create compelling electronic music with our course designed for beginners to advanced users.",
+        "description": "Create compelling electronic music with our course designed for beginners to advanced users. #BeTheBest",
         "price": 169.99,
         "instructor": "Luke Harris",
         "isFeatured": true,
-        "image": "/courses/music-prod.jpg"
+        "image": "/courses/music-prod.webp"
       },
       {
         "id": 9,
@@ -89,16 +89,6 @@
         "instructor": "Grace Lee",
         "isFeatured": false,
         "image": "/courses/classical-music.jpg"
-      },
-      {
-        "id": 10,
-        "title": "Blues Guitar Techniques",
-        "slug": "blues-guitar-techniques",
-        "description": "Discover the techniques of blues guitar to add soul and depth to your playing.",
-        "price": 189.99,
-        "instructor": "Ethan Moore",
-        "isFeatured": true,
-        "image": "/courses/blues.jpg"
       }
     ]
   }
