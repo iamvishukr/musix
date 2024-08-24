@@ -6,7 +6,7 @@ const Footer = () => {
       <div className=" max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4 sm:px-6 lg:px-8">
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">About Us</h2>
-          <p className="mb-4">Music school is a premier institution dedicated to teaching the art and science of music. We nurture talent from the ground up, fostering a vibrant community of musicians.</p>
+          <p className="mb-4">Musix is a premier institution dedicated to teaching the art and science of music. We nurture talent from the ground up, fostering a vibrant community of musicians.</p>
         </div>
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">Quick Links</h2>
@@ -44,7 +44,7 @@ const Footer = () => {
         </div>
         
       </div>
-        <p className="text-center pt-8 text-xs">©️ 2024 NextMusix. All Rights Reserved</p>
+        <p className="text-center pt-8 text-xs">©️ 2024 musix. All Rights Reserved</p>
     </footer>
   );
 };
