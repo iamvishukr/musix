@@ -21,7 +21,7 @@ const page = () => {
               Contact Us
             </h1>
             <p className="leading-relaxed mb-5 text-gray-400 text-center sm:text-pretty">
-              We're here to help with any questions about our courses, programs
+              We are here to help with any questions about our courses, programs
               or events. Reach out and let us know how we can assist you in your
               musical journey.
             </p>
