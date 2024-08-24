@@ -4,7 +4,7 @@
         "id": 1,
         "title": "Guitar Fundamentals",
         "slug": "guitar-fundamentals",
-        "description": "Learn the basics of playing guitar with our comprehensive beginner's course.It is totally a zero to hero course and will make sure you master it.",
+        "description": "Learn the basics of playing guitar with our comprehensive beginners; course.It is totally a zero to hero course and will make sure you master it.",
         "price": 99.99,
         "instructor": "John Doe",
         "isFeatured": true,
@@ -17,7 +17,7 @@
         "description": "Start your musical journey with foundational piano skills taught by expert instructors. A zero to hero course again.",
         "price": 109.99,
         "instructor": "Jane Smith",
-        "isFeatured": false,
+        "isFeatured": true,
         "image": "/courses/piano.jpg" 
       },
       {
@@ -37,7 +37,7 @@
         "description": "Master the drums with our comprehensive course covering all skill levels.",
         "price": 129.99,
         "instructor": "Mike Brown",
-        "isFeatured": false,
+        "isFeatured": true,
         "image": "/courses/drum.jpg"
       },
       {

@@ -16,7 +16,7 @@ const HeroSection = () => {
         </h1>
         <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto">
           Dive into our comprehensive music courses and transform your musical
-          journey today. weather you're a beginner or looking to refine your skills, Join us to unlock your true potential.
+          journey today. weather you are a beginner or looking to refine your skills, Join us to unlock your true potential.
         </p>
         <div className="mt-4">
           <Link href={"/courses"}>

@@ -44,7 +44,7 @@ const Footer = () => {
         </div>
         
       </div>
-        <p className="text-center pt-8 text-xs">©️ 2024 Music School. All Rights Reserved</p>
+        <p className="text-center pt-8 text-xs">©️ 2024 NextMusix. All Rights Reserved</p>
     </footer>
   );
 };
